@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-23T00:50:14 IST" name="Default suite" finished-at="2023-02-23T00:50:41 IST" duration-ms="27805">
+    <groups>
+    </groups>
+    <test started-at="2023-02-23T00:50:14 IST" name="Default test" finished-at="2023-02-23T00:50:41 IST" duration-ms="27805">
+      <class name="com.obsquara.TestNgProject.Locators">
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:14 IST" name="intialisebrowser" finished-at="2023-02-23T00:50:17 IST" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="locateByClass()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:17 IST" name="locateByClass" finished-at="2023-02-23T00:50:17 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByClass -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:17 IST" name="browserQuit" finished-at="2023-02-23T00:50:17 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:17 IST" name="intialisebrowser" finished-at="2023-02-23T00:50:21 IST" duration-ms="3748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="locateByCssselector()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:21 IST" name="locateByCssselector" finished-at="2023-02-23T00:50:21 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByCssselector -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:21 IST" name="browserQuit" finished-at="2023-02-23T00:50:21 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:21 IST" name="intialisebrowser" finished-at="2023-02-23T00:50:24 IST" duration-ms="3034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="locateByLinkText()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:24 IST" name="locateByLinkText" finished-at="2023-02-23T00:50:25 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByLinkText -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:25 IST" name="browserQuit" finished-at="2023-02-23T00:50:25 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:25 IST" name="intialisebrowser" finished-at="2023-02-23T00:50:28 IST" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="locateByPartialLinkText()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:28 IST" name="locateByPartialLinkText" finished-at="2023-02-23T00:50:28 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByPartialLinkText -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:28 IST" name="browserQuit" finished-at="2023-02-23T00:50:28 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:28 IST" name="intialisebrowser" finished-at="2023-02-23T00:50:31 IST" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="locateByTagName()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:31 IST" name="locateByTagName" finished-at="2023-02-23T00:50:31 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByTagName -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:31 IST" name="browserQuit" finished-at="2023-02-23T00:50:31 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:31 IST" name="intialisebrowser" finished-at="2023-02-23T00:50:33 IST" duration-ms="2605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="locateByXPath()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:33 IST" name="locateByXPath" finished-at="2023-02-23T00:50:34 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateByXPath -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:34 IST" name="browserQuit" finished-at="2023-02-23T00:50:34 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:34 IST" name="intialisebrowser" finished-at="2023-02-23T00:50:37 IST" duration-ms="3226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="locatorById()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:37 IST" name="locatorById" finished-at="2023-02-23T00:50:39 IST" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locatorById -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:39 IST" name="browserQuit" finished-at="2023-02-23T00:50:39 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:39 IST" name="intialisebrowser" finished-at="2023-02-23T00:50:41 IST" duration-ms="2559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="locatorsbyName()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:41 IST" name="locatorsbyName" finished-at="2023-02-23T00:50:41 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locatorsbyName -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Locators@3d6f0054]" started-at="2023-02-23T00:50:41 IST" name="browserQuit" finished-at="2023-02-23T00:50:41 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsquara.TestNgProject.Locators -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
