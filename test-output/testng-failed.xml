@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.obsquara.TestNgProject.Locators">
+      <class name="com.obsquara.TestNgProject.LocatorContains">
         <methods>
-          <include name="locateByClass"/>
           <include name="browserQuit"/>
+          <include name="xpathChild"/>
           <include name="intialisebrowser"/>
         </methods>
-      </class> <!-- com.obsquara.TestNgProject.Locators -->
+      </class> <!-- com.obsquara.TestNgProject.LocatorContains -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
