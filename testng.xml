@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="author" value="vyshna" />
+	<parameter name="searchKey" value="India" />
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.obsquara.TestNgProject.Parametrization" >
+<methods>
+<exclude name="parametersWithTest"/>
+</methods>
+</class>
+<class name="com.obsquara.TestNgProject.FakerClass.java" >
+<methods>
+<include name="verifyFakerClass"/>
+</methods>
+</class>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

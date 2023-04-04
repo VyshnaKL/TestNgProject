@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="11" total="12" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-16T23:59:53 IST" name="Default suite" finished-at="2023-03-16T23:59:58 IST" duration-ms="4898">
+  <suite started-at="2023-04-05T00:29:07 IST" name="Default suite" finished-at="2023-04-05T00:29:11 IST" duration-ms="4238">
     <groups>
     </groups>
-    <test started-at="2023-03-16T23:59:53 IST" name="Default test" finished-at="2023-03-16T23:59:58 IST" duration-ms="4898">
-      <class name="com.obsquara.TestNgProject.LocatorContains">
-        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.LocatorContains@4d465b11]" started-at="2023-03-16T23:59:53 IST" name="intialisebrowser" finished-at="2023-03-16T23:59:57 IST" duration-ms="3187" status="PASS">
+    <test started-at="2023-04-05T00:29:07 IST" name="Default test" finished-at="2023-04-05T00:29:11 IST" duration-ms="4238">
+      <class name="com.obsquara.TestNgProject.FakerClass">
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.FakerClass@156b88f5]" started-at="2023-04-05T00:29:07 IST" name="intialisebrowser" finished-at="2023-04-05T00:29:11 IST" duration-ms="3871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialisebrowser -->
-        <test-method signature="xpathDescendant()[pri:0, instance:com.obsquara.TestNgProject.LocatorContains@4d465b11]" started-at="2023-03-16T23:59:57 IST" name="xpathDescendant" finished-at="2023-03-16T23:59:58 IST" duration-ms="1550" status="PASS">
+        <test-method signature="verifyFakerClass()[pri:0, instance:com.obsquara.TestNgProject.FakerClass@156b88f5]" started-at="2023-04-05T00:29:11 IST" name="verifyFakerClass" finished-at="2023-04-05T00:29:11 IST" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- xpathDescendant -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.LocatorContains@4d465b11]" started-at="2023-03-16T23:59:58 IST" name="browserQuit" finished-at="2023-03-16T23:59:58 IST" duration-ms="132" status="PASS">
+        </test-method> <!-- verifyFakerClass -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.FakerClass@156b88f5]" started-at="2023-04-05T00:29:11 IST" name="browserQuit" finished-at="2023-04-05T00:29:11 IST" duration-ms="142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-      </class> <!-- com.obsquara.TestNgProject.LocatorContains -->
+      </class> <!-- com.obsquara.TestNgProject.FakerClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

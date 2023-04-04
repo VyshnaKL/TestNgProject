@@ -4,8 +4,12 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class RadioButtonDemo extends Base {
@@ -16,6 +20,8 @@ public class RadioButtonDemo extends Base {
 		String expectedShowSelectedText="Radio button "+Gender+" is checked";
 		SelectCategory SelectCategoryObject=new SelectCategory(driver);
 		SelectCategoryObject.listFindElements("Radio Buttons Demo");
+		//WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='inlineRadio2']")));
 		WebElement femaleRadioButton=driver.findElement(By.xpath("//input[@id='inlineRadio2']"));
 		boolean femaleRadioButtonSelected=femaleRadioButton.isSelected();
 		assertFalse(femaleRadioButtonSelected,"Female Button is not selected");
