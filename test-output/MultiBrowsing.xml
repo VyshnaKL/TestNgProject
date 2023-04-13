@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-12T00:17:30 IST" name="Default suite" finished-at="2023-04-12T00:17:34 IST" duration-ms="4413">
+    <groups>
+    </groups>
+    <test started-at="2023-04-12T00:17:30 IST" name="Default test" finished-at="2023-04-12T00:17:34 IST" duration-ms="4413">
+      <class name="com.obsquara.TestNgProject.AutoITTest">
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.AutoITTest@156b88f5]" started-at="2023-04-12T00:17:30 IST" name="intialisebrowser" finished-at="2023-04-12T00:17:33 IST" duration-ms="3344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="checkBoxDemo()[pri:0, instance:com.obsquara.TestNgProject.AutoITTest@156b88f5]" started-at="2023-04-12T00:17:33 IST" name="checkBoxDemo" finished-at="2023-04-12T00:17:34 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxDemo -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.AutoITTest@156b88f5]" started-at="2023-04-12T00:17:34 IST" name="browserQuit" finished-at="2023-04-12T00:17:34 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsquara.TestNgProject.AutoITTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

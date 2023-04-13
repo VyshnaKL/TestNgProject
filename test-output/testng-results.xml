@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-05T00:29:07 IST" name="Default suite" finished-at="2023-04-05T00:29:11 IST" duration-ms="4238">
+  <suite started-at="2023-04-13T00:16:13 IST" name="Default suite" finished-at="2023-04-13T00:16:24 IST" duration-ms="10435">
     <groups>
     </groups>
-    <test started-at="2023-04-05T00:29:07 IST" name="Default test" finished-at="2023-04-05T00:29:11 IST" duration-ms="4238">
-      <class name="com.obsquara.TestNgProject.FakerClass">
-        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.FakerClass@156b88f5]" started-at="2023-04-05T00:29:07 IST" name="intialisebrowser" finished-at="2023-04-05T00:29:11 IST" duration-ms="3871" status="PASS">
+    <test started-at="2023-04-13T00:16:13 IST" name="Default test" finished-at="2023-04-13T00:16:24 IST" duration-ms="10435">
+      <class name="com.obsquara.TestNgProject.Parametrization">
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Parametrization@6283d8b8]" started-at="2023-04-13T00:16:13 IST" name="intialisebrowser" finished-at="2023-04-13T00:16:17 IST" duration-ms="4011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- intialisebrowser -->
-        <test-method signature="verifyFakerClass()[pri:0, instance:com.obsquara.TestNgProject.FakerClass@156b88f5]" started-at="2023-04-05T00:29:11 IST" name="verifyFakerClass" finished-at="2023-04-05T00:29:11 IST" duration-ms="195" status="PASS">
+        <test-method signature="dataProviderParameterization(java.lang.String,java.lang.String)[pri:0, instance:com.obsquara.TestNgProject.Parametrization@6283d8b8]" started-at="2023-04-13T00:16:17 IST" name="dataProviderParameterization" data-provider="LoginProvider" finished-at="2023-04-13T00:16:17 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vyshna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[V123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFakerClass -->
-        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.FakerClass@156b88f5]" started-at="2023-04-05T00:29:11 IST" name="browserQuit" finished-at="2023-04-05T00:29:11 IST" duration-ms="142" status="PASS">
+        </test-method> <!-- dataProviderParameterization -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Parametrization@6283d8b8]" started-at="2023-04-13T00:16:17 IST" name="browserQuit" finished-at="2023-04-13T00:16:17 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-      </class> <!-- com.obsquara.TestNgProject.FakerClass -->
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Parametrization@6283d8b8]" started-at="2023-04-13T00:16:17 IST" name="intialisebrowser" finished-at="2023-04-13T00:16:21 IST" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="dataProviderParameterization(java.lang.String,java.lang.String)[pri:0, instance:com.obsquara.TestNgProject.Parametrization@6283d8b8]" started-at="2023-04-13T00:16:21 IST" name="dataProviderParameterization" data-provider="LoginProvider" finished-at="2023-04-13T00:16:21 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Renju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[R456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderParameterization -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Parametrization@6283d8b8]" started-at="2023-04-13T00:16:21 IST" name="browserQuit" finished-at="2023-04-13T00:16:21 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method is-config="true" signature="intialisebrowser()[pri:0, instance:com.obsquara.TestNgProject.Parametrization@6283d8b8]" started-at="2023-04-13T00:16:21 IST" name="intialisebrowser" finished-at="2023-04-13T00:16:23 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialisebrowser -->
+        <test-method signature="dataProviderParameterization(java.lang.String,java.lang.String)[pri:0, instance:com.obsquara.TestNgProject.Parametrization@6283d8b8]" started-at="2023-04-13T00:16:23 IST" name="dataProviderParameterization" data-provider="LoginProvider" finished-at="2023-04-13T00:16:23 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderParameterization -->
+        <test-method is-config="true" signature="browserQuit()[pri:0, instance:com.obsquara.TestNgProject.Parametrization@6283d8b8]" started-at="2023-04-13T00:16:23 IST" name="browserQuit" finished-at="2023-04-13T00:16:24 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsquara.TestNgProject.Parametrization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

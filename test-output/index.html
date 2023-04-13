@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Manu\AppData\Local\Temp\testng-eclipse--914158537\testng-customsuite.xml</span>
+                    <span>C:\Users\Manu\AppData\Local\Temp\testng-eclipse-1863187789\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.obsquara.TestNgProject.FakerClass" class="method navigator-link" hash-for-method="verifyFakerClass">verifyFakerClass</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.obsquara.TestNgProject.Parametrization" class="method navigator-link" hash-for-method="dataProviderParameterization(Anu, A789)">dataProviderParameterization(Anu, A789)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.obsquara.TestNgProject.Parametrization" class="method navigator-link" hash-for-method="dataProviderParameterization(Vyshna, V123)">dataProviderParameterization(Vyshna, V123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.obsquara.TestNgProject.Parametrization" class="method navigator-link" hash-for-method="dataProviderParameterization(Renju, R456)">dataProviderParameterization(Renju, R456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +132,31 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.obsquara.TestNgProject.FakerClass</span>
+              <span class="class-name">com.obsquara.TestNgProject.Parametrization</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyFakerClass">
-                  </a> <!-- verifyFakerClass -->
-                  <span class="method-name">verifyFakerClass</span>
+                  <a name="dataProviderParameterization(Anu, A789)">
+                  </a> <!-- dataProviderParameterization(Anu, A789) -->
+                  <span class="method-name">dataProviderParameterization</span>
+                  <span class="parameters">(Anu, A789)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataProviderParameterization(Vyshna, V123)">
+                  </a> <!-- dataProviderParameterization(Vyshna, V123) -->
+                  <span class="method-name">dataProviderParameterization</span>
+                  <span class="parameters">(Vyshna, V123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dataProviderParameterization(Renju, R456)">
+                  </a> <!-- dataProviderParameterization(Renju, R456) -->
+                  <span class="method-name">dataProviderParameterization</span>
+                  <span class="parameters">(Renju, R456)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +164,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Manu\AppData\Local\Temp\testng-eclipse--914158537\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Manu\AppData\Local\Temp\testng-eclipse-1863187789\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,11 +173,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.obsquara.TestNgProject.FakerClass&quot;&gt;
+      &lt;class name=&quot;com.obsquara.TestNgProject.Parametrization&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;verifyFakerClass&quot;/&gt;
+          &lt;include name=&quot;dataProviderParameterization&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.obsquara.TestNgProject.FakerClass --&gt;
+      &lt;/class&gt; &lt;!-- com.obsquara.TestNgProject.Parametrization --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -190,16 +217,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyFakerClass')
-data.setCell(0, 2, 'com.obsquara.TestNgProject.FakerClass')
-data.setCell(0, 3, 195);
+data.setCell(0, 1, 'dataProviderParameterization')
+data.setCell(0, 2, 'com.obsquara.TestNgProject.Parametrization')
+data.setCell(0, 3, 14);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'dataProviderParameterization')
+data.setCell(1, 2, 'com.obsquara.TestNgProject.Parametrization')
+data.setCell(1, 3, 3);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'dataProviderParameterization')
+data.setCell(2, 2, 'com.obsquara.TestNgProject.Parametrization')
+data.setCell(2, 3, 3);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 195 ms</span>
+              <span class="suite-total-time">Total running time: 20 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -214,9 +249,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.obsquara.TestNgProject.Parametrization</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">parametersWithTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -225,18 +267,42 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.obsquara.TestNgProject.FakerClass</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.obsquara.TestNgProject.Parametrization</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">intialisebrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyFakerClass</span>
-                <span class="method-start">3873 ms</span>
+                <span class="method-name">dataProviderParameterization(Vyshna, V123)</span>
+                <span class="method-start">4014 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserQuit</span>
-                <span class="method-start">4070 ms</span>
+                <span class="method-start">4034 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intialisebrowser</span>
+                <span class="method-start">4195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dataProviderParameterization(Renju, R456)</span>
+                <span class="method-start">7325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserQuit</span>
+                <span class="method-start">7331 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">intialisebrowser</span>
+                <span class="method-start">7508 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dataProviderParameterization(Anu, A789)</span>
+                <span class="method-start">10206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserQuit</span>
+                <span class="method-start">10212 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

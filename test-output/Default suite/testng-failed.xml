@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.obsquara.TestNgProject.Parametrization">
+      <class name="com.obsquara.TestNgProject.AutoITTest">
         <methods>
           <include name="browserQuit"/>
-          <include name="parametersWithTest"/>
+          <include name="fileUpload"/>
           <include name="intialisebrowser"/>
         </methods>
-      </class> <!-- com.obsquara.TestNgProject.Parametrization -->
+      </class> <!-- com.obsquara.TestNgProject.AutoITTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
